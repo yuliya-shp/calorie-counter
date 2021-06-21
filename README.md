@@ -1,5 +1,5 @@
 # calorie-counter
-#Mobile app for tracking calories
+# Mobile app for tracking calories
 
 Added features:
 1. Registration and authentication by Firebase;
