@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>754869383962-amdt4fbefk5f26sqe9okh1eg4926nsc4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.754869383962-amdt4fbefk5f26sqe9okh1eg4926nsc4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBoO-vQLEL2tCWG0Gqyp5VxA71tK_T3OEg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>754869383962</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>testproject.colorie-counter</string>
+	<key>PROJECT_ID</key>
+	<string>caloriecounter-7d8e3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>caloriecounter-7d8e3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:754869383962:ios:83bb43b4b4ab071dcc32a3</string>
+</dict>
+</plist>

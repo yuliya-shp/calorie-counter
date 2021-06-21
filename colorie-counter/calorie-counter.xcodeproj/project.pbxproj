@@ -3,19 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1403C3252666D120009384A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403C3242666D120009384A6 /* DetailViewController.swift */; };
+		1403C3282666E49E009384A6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1403C3272666E49E009384A6 /* SearchViewController.swift */; };
+		140CA39C265C47D600CDF836 /* BarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CA39B265C47D600CDF836 /* BarCodeViewController.swift */; };
+		140CA3B0265D838B00CDF836 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 140CA3AF265D838B00CDF836 /* GoogleService-Info.plist */; };
+		140CA3B3265D878E00CDF836 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CA3B2265D878E00CDF836 /* LoginViewController.swift */; };
+		140CA3B7265D9F0700CDF836 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CA3B6265D9F0700CDF836 /* User.swift */; };
+		140CA3BE265DAE5100CDF836 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CA3BD265DAE5100CDF836 /* SigninViewController.swift */; };
+		142C316126790809009E7AD1 /* PedometrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C316026790809009E7AD1 /* PedometrViewController.swift */; };
+		142C316426792C16009E7AD1 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C316326792C16009E7AD1 /* Chart.swift */; };
+		1431672C2648A26900D540EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431672B2648A26900D540EC /* Model.swift */; };
+		1431672F2648A3F000D540EC /* parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431672E2648A3F000D540EC /* parser.swift */; };
+		144C2C77266AF3690013E8DA /* FoodInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C2C76266AF3690013E8DA /* FoodInfo.swift */; };
 		147C2B262644A6310062AB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C2B252644A6310062AB75 /* AppDelegate.swift */; };
 		147C2B282644A6310062AB75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C2B272644A6310062AB75 /* SceneDelegate.swift */; };
 		147C2B2A2644A6310062AB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147C2B292644A6310062AB75 /* ViewController.swift */; };
 		147C2B2D2644A6310062AB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147C2B2B2644A6310062AB75 /* Main.storyboard */; };
 		147C2B2F2644A6350062AB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147C2B2E2644A6350062AB75 /* Assets.xcassets */; };
 		147C2B322644A6350062AB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147C2B302644A6350062AB75 /* LaunchScreen.storyboard */; };
+		14AE8B6B264F583400AF9988 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE8B6A264F583400AF9988 /* TableViewController.swift */; };
+		9F6B6D1F74FA6DDCEDEC0096 /* Pods_colorie_counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F77DBA84DBF2D28C6F2624 /* Pods_colorie_counter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1177AD84D58D79B2A7015CA3 /* Pods-colorie-counter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorie-counter.release.xcconfig"; path = "Target Support Files/Pods-colorie-counter/Pods-colorie-counter.release.xcconfig"; sourceTree = "<group>"; };
+		1403C3242666D120009384A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1403C3272666E49E009384A6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		140CA39B265C47D600CDF836 /* BarCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeViewController.swift; sourceTree = "<group>"; };
+		140CA3AF265D838B00CDF836 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		140CA3B2265D878E00CDF836 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		140CA3B6265D9F0700CDF836 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		140CA3BD265DAE5100CDF836 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		142C316026790809009E7AD1 /* PedometrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometrViewController.swift; sourceTree = "<group>"; };
+		142C316326792C16009E7AD1 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
+		1431672B2648A26900D540EC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1431672E2648A3F000D540EC /* parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parser.swift; sourceTree = "<group>"; };
+		144C2C76266AF3690013E8DA /* FoodInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfo.swift; sourceTree = "<group>"; };
 		147C2B222644A6310062AB75 /* colorie-counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "colorie-counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		147C2B252644A6310062AB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		147C2B272644A6310062AB75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +51,9 @@
 		147C2B2E2644A6350062AB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147C2B312644A6350062AB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147C2B332644A6350062AB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE8B6A264F583400AF9988 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		DCE86C677CFF67C7DC30FA98 /* Pods-colorie-counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorie-counter.debug.xcconfig"; path = "Target Support Files/Pods-colorie-counter/Pods-colorie-counter.debug.xcconfig"; sourceTree = "<group>"; };
+		F9F77DBA84DBF2D28C6F2624 /* Pods_colorie_counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorie_counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F6B6D1F74FA6DDCEDEC0096 /* Pods_colorie_counter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		140CA3B9265D9F6700CDF836 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1431672B2648A26900D540EC /* Model.swift */,
+				140CA3B6265D9F0700CDF836 /* User.swift */,
+				144C2C76266AF3690013E8DA /* FoodInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		140CA3BA265D9F8200CDF836 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				147C2B302644A6350062AB75 /* LaunchScreen.storyboard */,
+				147C2B2B2644A6310062AB75 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		140CA3BB265D9FA900CDF836 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				140CA3B2265D878E00CDF836 /* LoginViewController.swift */,
+				140CA3BD265DAE5100CDF836 /* SigninViewController.swift */,
+				140CA39B265C47D600CDF836 /* BarCodeViewController.swift */,
+				14AE8B6A264F583400AF9988 /* TableViewController.swift */,
+				147C2B292644A6310062AB75 /* ViewController.swift */,
+				1403C3242666D120009384A6 /* DetailViewController.swift */,
+				1403C3272666E49E009384A6 /* SearchViewController.swift */,
+				142C316026790809009E7AD1 /* PedometrViewController.swift */,
+				142C316326792C16009E7AD1 /* Chart.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		147C2B192644A6310062AB75 = {
 			isa = PBXGroup;
 			children = (
 				147C2B242644A6310062AB75 /* colorie-counter */,
 				147C2B232644A6310062AB75 /* Products */,
+				BB4D8C98645561D243EB14E6 /* Pods */,
+				4262EEF6AC22B5BF972E3ACF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +124,34 @@
 		147C2B242644A6310062AB75 /* colorie-counter */ = {
 			isa = PBXGroup;
 			children = (
+				140CA3BB265D9FA900CDF836 /* Controllers */,
+				140CA3BA265D9F8200CDF836 /* Views */,
+				140CA3B9265D9F6700CDF836 /* Models */,
 				147C2B252644A6310062AB75 /* AppDelegate.swift */,
 				147C2B272644A6310062AB75 /* SceneDelegate.swift */,
-				147C2B292644A6310062AB75 /* ViewController.swift */,
-				147C2B2B2644A6310062AB75 /* Main.storyboard */,
 				147C2B2E2644A6350062AB75 /* Assets.xcassets */,
-				147C2B302644A6350062AB75 /* LaunchScreen.storyboard */,
+				1431672E2648A3F000D540EC /* parser.swift */,
 				147C2B332644A6350062AB75 /* Info.plist */,
+				140CA3AF265D838B00CDF836 /* GoogleService-Info.plist */,
 			);
 			path = "colorie-counter";
+			sourceTree = "<group>";
+		};
+		4262EEF6AC22B5BF972E3ACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9F77DBA84DBF2D28C6F2624 /* Pods_colorie_counter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB4D8C98645561D243EB14E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE86C677CFF67C7DC30FA98 /* Pods-colorie-counter.debug.xcconfig */,
+				1177AD84D58D79B2A7015CA3 /* Pods-colorie-counter.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 147C2B362644A6350062AB75 /* Build configuration list for PBXNativeTarget "colorie-counter" */;
 			buildPhases = (
+				F02D48A0A470588625738053 /* [CP] Check Pods Manifest.lock */,
 				147C2B1E2644A6310062AB75 /* Sources */,
 				147C2B1F2644A6310062AB75 /* Frameworks */,
 				147C2B202644A6310062AB75 /* Resources */,
+				A7700B7F08C8ECFEF9DD24E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -101,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 147C2B1D2644A6310062AB75 /* Build configuration list for PBXProject "colorie-counter" */;
+			buildConfigurationList = 147C2B1D2644A6310062AB75 /* Build configuration list for PBXProject "calorie-counter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				147C2B322644A6350062AB75 /* LaunchScreen.storyboard in Resources */,
+				140CA3B0265D838B00CDF836 /* GoogleService-Info.plist in Resources */,
 				147C2B2F2644A6350062AB75 /* Assets.xcassets in Resources */,
 				147C2B2D2644A6310062AB75 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +222,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7700B7F08C8ECFEF9DD24E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colorie-counter/Pods-colorie-counter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-colorie-counter/Pods-colorie-counter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-colorie-counter/Pods-colorie-counter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F02D48A0A470588625738053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colorie-counter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		147C2B1E2644A6310062AB75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140CA3B3265D878E00CDF836 /* LoginViewController.swift in Sources */,
 				147C2B2A2644A6310062AB75 /* ViewController.swift in Sources */,
+				140CA3BE265DAE5100CDF836 /* SigninViewController.swift in Sources */,
+				144C2C77266AF3690013E8DA /* FoodInfo.swift in Sources */,
+				1403C3252666D120009384A6 /* DetailViewController.swift in Sources */,
+				142C316426792C16009E7AD1 /* Chart.swift in Sources */,
+				14AE8B6B264F583400AF9988 /* TableViewController.swift in Sources */,
 				147C2B262644A6310062AB75 /* AppDelegate.swift in Sources */,
 				147C2B282644A6310062AB75 /* SceneDelegate.swift in Sources */,
+				142C316126790809009E7AD1 /* PedometrViewController.swift in Sources */,
+				1431672F2648A3F000D540EC /* parser.swift in Sources */,
+				1403C3282666E49E009384A6 /* SearchViewController.swift in Sources */,
+				140CA39C265C47D600CDF836 /* BarCodeViewController.swift in Sources */,
+				140CA3B7265D9F0700CDF836 /* User.swift in Sources */,
+				1431672C2648A26900D540EC /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +427,7 @@
 		};
 		147C2B372644A6350062AB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE86C677CFF67C7DC30FA98 /* Pods-colorie-counter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +447,7 @@
 		};
 		147C2B382644A6350062AB75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1177AD84D58D79B2A7015CA3 /* Pods-colorie-counter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		147C2B1D2644A6310062AB75 /* Build configuration list for PBXProject "colorie-counter" */ = {
+		147C2B1D2644A6310062AB75 /* Build configuration list for PBXProject "calorie-counter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				147C2B342644A6350062AB75 /* Debug */,
