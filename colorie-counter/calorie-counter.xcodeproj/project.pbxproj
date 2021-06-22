@@ -14,8 +14,6 @@
 		140CA3B3265D878E00CDF836 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CA3B2265D878E00CDF836 /* LoginViewController.swift */; };
 		140CA3B7265D9F0700CDF836 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CA3B6265D9F0700CDF836 /* User.swift */; };
 		140CA3BE265DAE5100CDF836 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140CA3BD265DAE5100CDF836 /* SigninViewController.swift */; };
-		142C316126790809009E7AD1 /* PedometrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C316026790809009E7AD1 /* PedometrViewController.swift */; };
-		142C316426792C16009E7AD1 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142C316326792C16009E7AD1 /* Chart.swift */; };
 		1431672C2648A26900D540EC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431672B2648A26900D540EC /* Model.swift */; };
 		1431672F2648A3F000D540EC /* parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1431672E2648A3F000D540EC /* parser.swift */; };
 		144C2C77266AF3690013E8DA /* FoodInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144C2C76266AF3690013E8DA /* FoodInfo.swift */; };
@@ -38,8 +36,6 @@
 		140CA3B2265D878E00CDF836 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		140CA3B6265D9F0700CDF836 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		140CA3BD265DAE5100CDF836 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
-		142C316026790809009E7AD1 /* PedometrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometrViewController.swift; sourceTree = "<group>"; };
-		142C316326792C16009E7AD1 /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 		1431672B2648A26900D540EC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1431672E2648A3F000D540EC /* parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parser.swift; sourceTree = "<group>"; };
 		144C2C76266AF3690013E8DA /* FoodInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfo.swift; sourceTree = "<group>"; };
@@ -97,8 +93,6 @@
 				147C2B292644A6310062AB75 /* ViewController.swift */,
 				1403C3242666D120009384A6 /* DetailViewController.swift */,
 				1403C3272666E49E009384A6 /* SearchViewController.swift */,
-				142C316026790809009E7AD1 /* PedometrViewController.swift */,
-				142C316326792C16009E7AD1 /* Chart.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -274,11 +268,9 @@
 				140CA3BE265DAE5100CDF836 /* SigninViewController.swift in Sources */,
 				144C2C77266AF3690013E8DA /* FoodInfo.swift in Sources */,
 				1403C3252666D120009384A6 /* DetailViewController.swift in Sources */,
-				142C316426792C16009E7AD1 /* Chart.swift in Sources */,
 				14AE8B6B264F583400AF9988 /* TableViewController.swift in Sources */,
 				147C2B262644A6310062AB75 /* AppDelegate.swift in Sources */,
 				147C2B282644A6310062AB75 /* SceneDelegate.swift in Sources */,
-				142C316126790809009E7AD1 /* PedometrViewController.swift in Sources */,
 				1431672F2648A3F000D540EC /* parser.swift in Sources */,
 				1403C3282666E49E009384A6 /* SearchViewController.swift in Sources */,
 				140CA39C265C47D600CDF836 /* BarCodeViewController.swift in Sources */,

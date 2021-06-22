@@ -34,8 +34,6 @@ class ViewController: UIViewController {
         user = User(user: currentUser)
         ref = Database.database().reference(withPath: "user")
         refFood = Database.database().reference(withPath: "user").child(String(user.uid)).child(date)
-        
-        //print(foodInfo)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -47,8 +45,6 @@ class ViewController: UIViewController {
         ref = Database.database().reference(withPath: "user")
         refFood = Database.database().reference(withPath: "user").child(String(user.uid)).child(date)
         
-        //print(foodInfo)
-        
         refFood.observe(.value) { [weak self] snapshot in
             var foodInfo = [FoodInfo]()
             for item in snapshot.children {
@@ -57,22 +53,6 @@ class ViewController: UIViewController {
             }
             self?.foodInfo = foodInfo
             
-            //self?.cal = foodInfo[0].calories
-            if self?.foodInfo.count != 0 {
-                for element in self!.foodInfo {
-                    if element.type == "Lunch" {
-                        print(element.calories)
-                    }
-                    
-                    //self!.calCount += Double(element.calories) ?? 0.0
-                    //print(self!.calCount)
-                }
-            }
-
- 
-            //self!.caloriesLabel.text  = "ddd" //String(self?.cal ?? "0")
-            //print(self?.foodInfo.count)
-           // print(self?.foodInfo[0].calories)
             self!.navigationItem.setHidesBackButton(true, animated: true)
         }
         
