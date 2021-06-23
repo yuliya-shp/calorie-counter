@@ -802,7 +802,6 @@
                                 <action selector="signoutTap:" destination="FHB-ED-PtO" id="0oE-Yx-H1k"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Steps Counter" id="8Ay-y9-IcH"/>
                     </navigationItem>
                     <connections>
                         <outlet property="dateLabel" destination="31O-2S-Sqq" id="VGL-3M-u1E"/>
