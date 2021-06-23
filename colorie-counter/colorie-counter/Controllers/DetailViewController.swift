@@ -111,7 +111,7 @@ class DetailViewController: UIViewController {
                 print(error)
             }
             DispatchQueue.main.async {
-                self.cal = Double(round(1000*(self.products[0]?.food?.nutrients!.ENERC_KCAL)!)/1000) //Double(round(1000*x)/1000)
+                self.cal = Double(round(1000*(self.products[0]?.food?.nutrients!.ENERC_KCAL)!)/1000)
                 self.calorieLabel.text = String(self.cal)
                 self.protein = Double(round(1000*(self.products[0]?.food?.nutrients!.PROCNT)!)/1000)
                 self.procntLabel.text = String(self.protein)

@@ -27,7 +27,6 @@ class SearchViewController: UIViewController {
     @IBAction func searchingTF(_ sender: UITextField) {
         fetchData(value: sender.text?.replacingOccurrences(of: " ", with: "%20") ?? "")
     }
-
     
     func fetchData(value: String) {
         

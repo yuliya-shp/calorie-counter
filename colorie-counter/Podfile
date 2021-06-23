@@ -12,6 +12,5 @@ target 'colorie-counter' do
   pod 'Firebase/Database'
   pod 'Firebase/MLVision'
   pod 'Firebase/MLVisionBarcodeModel'
-  pod 'Charts'
 
 end

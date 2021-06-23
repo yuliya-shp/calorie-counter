@@ -23,7 +23,6 @@
 		147C2B2D2644A6310062AB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147C2B2B2644A6310062AB75 /* Main.storyboard */; };
 		147C2B2F2644A6350062AB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147C2B2E2644A6350062AB75 /* Assets.xcassets */; };
 		147C2B322644A6350062AB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147C2B302644A6350062AB75 /* LaunchScreen.storyboard */; };
-		14AE8B6B264F583400AF9988 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE8B6A264F583400AF9988 /* TableViewController.swift */; };
 		9F6B6D1F74FA6DDCEDEC0096 /* Pods_colorie_counter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9F77DBA84DBF2D28C6F2624 /* Pods_colorie_counter.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +46,6 @@
 		147C2B2E2644A6350062AB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147C2B312644A6350062AB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		147C2B332644A6350062AB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14AE8B6A264F583400AF9988 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		DCE86C677CFF67C7DC30FA98 /* Pods-colorie-counter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorie-counter.debug.xcconfig"; path = "Target Support Files/Pods-colorie-counter/Pods-colorie-counter.debug.xcconfig"; sourceTree = "<group>"; };
 		F9F77DBA84DBF2D28C6F2624 /* Pods_colorie_counter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_colorie_counter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,7 +87,6 @@
 				140CA3B2265D878E00CDF836 /* LoginViewController.swift */,
 				140CA3BD265DAE5100CDF836 /* SigninViewController.swift */,
 				140CA39B265C47D600CDF836 /* BarCodeViewController.swift */,
-				14AE8B6A264F583400AF9988 /* TableViewController.swift */,
 				147C2B292644A6310062AB75 /* ViewController.swift */,
 				1403C3242666D120009384A6 /* DetailViewController.swift */,
 				1403C3272666E49E009384A6 /* SearchViewController.swift */,
@@ -268,7 +265,6 @@
 				140CA3BE265DAE5100CDF836 /* SigninViewController.swift in Sources */,
 				144C2C77266AF3690013E8DA /* FoodInfo.swift in Sources */,
 				1403C3252666D120009384A6 /* DetailViewController.swift in Sources */,
-				14AE8B6B264F583400AF9988 /* TableViewController.swift in Sources */,
 				147C2B262644A6310062AB75 /* AppDelegate.swift in Sources */,
 				147C2B282644A6310062AB75 /* SceneDelegate.swift in Sources */,
 				1431672F2648A3F000D540EC /* parser.swift in Sources */,
